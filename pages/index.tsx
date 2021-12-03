@@ -8,9 +8,15 @@ const Home: NextPage = () => {
         Welcome to go-jokes-api! 👋
       </h1>
 
-      <p className="text-xl">
+      <p className="text-xl my-8">
         A simple jokes API built with the go/golang programming language.
       </p>
+
+      <p className="text-sm my-8">
+        https://go-jokes-api.herokuapp.com/
+      </p>
+
+      <hr className="my-4" />
 
       <EndpointBox endpoint="GET /random" />
 
